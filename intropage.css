@@ -1,0 +1,133 @@
+/* .hero
+{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(images/int.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}*/
+
+ 
+.intro{
+  
+  
+
+  position: absolute;
+  
+  top: 25%;
+  
+  left: 40%;
+  
+  transform: translate(-50%, -50%);
+  
+  font-size: 70px;
+  
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  
+  color: transparent;
+  
+  background-image: linear-gradient(45deg,rgb(0, 0, 0), rgb(0, 0, 0));
+  background-repeat: no-repeat;
+  
+  -webkit-background-clip: text;
+  
+  background-position: -330px 0; 
+  animation: backcolor 7s linear infinite alternate;
+  
+  } @keyframes backcolor {
+  
+  100%{
+  
+  background-position: 0 0;
+  
+  
+  
+  }
+
+
+}
+.trip{
+        position: absolute;
+        top: 38%;
+        left:50%;
+        color:rgb(0, 0, 0);
+        -webkit-text-stroke: .2px #fff;
+        font-style: italic;
+        font-size: 30px;
+        overflow: hidden;
+      }
+      
+      .vis
+      {
+        position: absolute;
+        top: 88%;
+        padding-left: 570px;
+        -webkit-text-stroke: 1px #fff;
+        
+      }
+      .hero{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-color: black;
+        
+      }
+      
+      video{
+        width:100%;
+        height: 100vh;
+        object-fit: cover;
+      }
+.overlay{
+  position: absolute;
+  height: 100%;
+  width:100%;
+  background-color: rgb(0, 0, 0,);
+}
+
+
+/* 
+
+
+.intro{
+
+    position: absolute;
+    
+    top: 25%;
+    
+    left: 40%;
+    
+    transform: translate(-50%, -50%);
+    
+    font-size: 70px;
+    
+    
+    
+    color: transparent;
+    
+    background-image: linear-gradient(45deg,rgb(38, 212, 58), rgb(220, 189, 30),rgb(249, 6, 6));
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+    background-position: -330px 0; 
+   
+    animation:animate 12s ease-in-out infinite;
+    
+    } 
+    @keyframes animate{
+    
+    0%{
+    
+    background-position: 0%;
+    }
+    100%{
+    
+    background-position: 400%;
+    
+    
+    
+    }
+     */

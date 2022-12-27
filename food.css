@@ -1,0 +1,289 @@
+/* body{
+    overflow: hidden;
+
+} */
+
+
+.top111{
+    width:100%;
+    height:15%;
+    color:rgb(0, 0, 0);
+    background:linear-gradient(45deg,rgb(155, 140, 140),grey,white);
+    padding: 3px 0px 3px 0px;
+    display: flex;
+}
+
+.icon111{
+    display: flex;
+    padding: 25px 10px 30px 40px;
+    }
+       
+    .icon222{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 990px;
+    
+    }
+    .lo{
+        display: flex;
+        position: relative;
+        left:940px; 
+        top:30px
+    }
+    .hhhh{
+        display: flex;
+    font-size: 30px;
+    padding-top: 19px;
+    }
+.page99{
+
+  width: 100%;
+    height:100%;
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+   .first9{
+    height:280px;
+      width:100%;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: space-around;
+            /* background-color: aqua; */
+   }
+   .first99{
+    height:280px;
+      width:100%;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: space-around;
+   
+      /* background-color: bisque; */
+   }
+   .first9 .cont1, .cont2{
+      width: 345px;
+      height: 182px;
+      background-size: 250px;
+      background-position: center;
+      position: relative;
+      top:40px;
+      border-radius:25px;
+}
+   .first99 .cont3, .cont4{
+     width: 345px;
+     height: 182px;
+     position: relative;
+    
+      background-size: 250px;
+      background-position: center;
+      top:10px;
+      border-radius:25px;
+}
+.foodpic1{
+   width :350px;
+    height:200px;
+    border-radius:25px; 
+}
+.foodpic2{
+   width :350px;
+    height:200px;
+    border-radius:25px;  
+}
+.foodpic3{
+   width :350px;
+    height:200px;
+    border-radius:25px; 
+}
+.foodpic4{
+  width :350px;
+    height:200px;
+    border-radius:25px; 
+}
+   
+
+.hotelstyle{
+    font-weight:bolder;
+    padding-left: 100px;
+}
+
+
+
+
+
+
+
+/* .page99
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform-style: preserve-3d;
+} */
+/* .page99 .cont1,.cont2,.cont3,.cont4
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+   
+    transform-style: preserve-3d ;
+} */
+ /* .page99 .cont1:hover
+{
+    box-shadow: 0 50px 80px rgba(0,0,0,.2);
+}
+ .page99 .cont2:hover
+{
+    box-shadow: 0 50px 80px rgba(0,0,0,.2);
+} */
+/* 
+.page99 .cont1
+{
+    position:absolute;
+    top:20px;
+    left:100px;
+    width:300px;
+    height : 182px;
+}
+.page99 .cont2
+{
+    position:absolute;
+    top:20px;
+    left:600px;
+    width:300px;
+    height : 182px;
+}
+.page99 .cont3
+{
+    position:absolute;
+    top:200px;
+    left:100px;
+    width:300px;
+    height : 182px;
+}
+.page99 .cont4
+{
+    position:absolute;
+    display: flex;
+    top:200px;
+    left:600px;
+    width:300px;
+    height : 182px;
+} */
+.page99 .cont1 .lett69
+{
+    position: absolute;
+    top :30%;
+    left:50px;
+    right:50px;
+    background:rgb(155, 81, 81);
+    transform: translateZ(20px) scaleY(0);
+    padding : 10px 25px;
+    transform-origin: top;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    border-radius: 25px;
+    background:linear-gradient(45deg,white, grey,rgb(255, 255, 255));
+    background-size: 300% 300%;
+    animation:color 12s ease-in-out infinite;
+} 
+.page99 .cont1:hover .lett69
+{
+    transform: translateZ(20px) ScaleY(1);
+}
+.page99 .cont2 .lett79
+{
+    position: absolute;
+    top :30%;
+    left:50px;
+    right:50px;
+    background:#fff;
+    transform: translateZ(20px) scaleY(0);
+    padding : 10px 25px;
+    transform-origin: top;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    border-radius: 25px;
+    background:linear-gradient(45deg,white, grey,rgb(255, 255, 255));
+    background-size: 300% 300%;
+    animation:color 12s ease-in-out infinite;
+} 
+.page99 .cont2:hover .lett79
+{
+    transform: translateZ(20px) ScaleY(1);
+   
+}
+.page99 .cont3 .lett89
+{
+    position: absolute;
+    top :30%;
+    left:50px;
+    right:50px;
+    background:#fff;
+    transform: translateZ(20px) scaleY(0);
+    padding : 10px 25px;
+    transform-origin: top;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    border-radius: 25px;
+    background:linear-gradient(45deg,white, grey,rgb(255, 255, 255));
+    background-size: 300% 300%;
+    animation:color 12s ease-in-out infinite;
+} 
+.page99 .cont3:hover .lett89
+{
+    transform: translateZ(20px) ScaleY(1);
+}
+.page99 .cont4 .lett99
+{
+    position: absolute;
+    top :30%;
+    left:50px;
+    right:50px;
+    transform: translateZ(20px) scaleY(0);
+    padding : 10px 25px;
+    transform-origin: top;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    border-radius: 25px;
+    background:linear-gradient(45deg,white, grey,rgb(255, 255, 255));
+    background-size: 300% 300%;
+    animation:color 12s ease-in-out infinite;
+} 
+@keyframes color{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+.page99 .cont4:hover .lett99
+{
+    transform: translateZ(20px) ScaleY(1);
+}
+
+.box999{
+    display: none ;
+    position: absolute;
+    z-index: 999;
+    color: #000000;
+   
+}
+.box999 :hover.right-menu{
+     background-color: transparent;  
+}
+.right-menu :hover .box999{
+    display: block;
+}
+.right-menu:hover .icon111{
+    background-color: transparent;
+}
+

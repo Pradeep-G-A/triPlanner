@@ -1,0 +1,24 @@
+.leftarr{
+    background-color: rgba(76, 71, 71, 0.5);
+    padding-right: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-radius: 100%;
+}
+.rightarr{
+    background-color: rgba(76, 71, 71, 0.5);
+    padding-right: 7px;
+    padding-left: 6px;
+    padding-bottom: 5px;
+    border-radius: 100%;
+}
+
+.dotcl{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.dotcl:hover{
+    color: rgb(108, 116, 116);
+    font-size: 31px;
+    
+}

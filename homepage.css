@@ -1,0 +1,375 @@
+.top1{
+    width:100%;
+    height:80px;
+    color:rgb(0, 0, 0);
+    background:linear-gradient(45deg,rgb(28,70,128),rgb(100,141,221),rgb(115,148,229),rgb(99,136,211));
+    animation:color 12s ease-in-out infinite;
+    padding: 3px 0px 3px 0px;
+    display: flex;
+}
+@keyframes color{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
+/* .iii
+{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(images/.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+} */
+.hhh{
+    display: flex;
+    font-size: 30px;
+    padding-top: 19px;
+    
+}
+
+.icon1{
+display: flex;
+padding: 25px 10px 30px 40px;
+}
+   
+.icon2{
+display: flex;
+position: relative;
+top:25px;
+left: 959px;
+
+}
+.hel{
+    display: flex;
+    position: relative;
+
+}
+
+.log{
+    display: flex;
+    position: relative;
+    left:700px; 
+    padding-top: 7px;         
+}
+
+   
+
+
+
+
+ul#menu {
+    list-style: none;
+    width: 250px;
+    padding-left: 15px;
+    padding-top:43px;
+}
+
+ul#menu li{
+    margin: 8px 0;
+    position: relative;
+    background-color: #000000;
+    border-radius: 0 30px 30px 0;
+    overflow: hidden;
+}
+
+ul#menu li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom:0;
+    width: 3px;
+    background-color: rgb(255, 242, 0);
+}
+
+ul#menu li:nth-child(1)::before {
+    background-color: #4185f3;
+
+}
+ul#menu li:nth-child(2)::before {
+    background-color: rgb(255, 0, 174);
+    
+}
+ul#menu li:nth-child(3)::before {
+    background-color: #32a250;
+    
+}
+ul#menu li:nth-child(4)::before {
+    background-color: #e44113;
+
+}
+ul#menu li:nth-child(5)::before {
+    background-color: #f1b504;
+
+}
+
+ul#menu li:hover::before {
+    border-radius: 0 50px 50px 0;
+    width:110%;
+
+}
+
+ul#menu li p {
+    display: block;
+    padding: 15px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bolder;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    /* -webkit-text-stroke: 1px #fff; */
+}
+/* ul#menu li:nth-child(1){
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+ul#menu li:nth-child(2){
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+ul#menu li:nth-child(3){
+    height: 50px;
+    display: flex;
+    align-items: center;
+} */
+
+
+
+
+
+.box999{
+    display: none ;
+    position: absolute;
+    padding-top: 30px;
+    color: #000000;
+    z-index: 999;
+}
+.box999 :hover.right-menu{
+     background-color: transparent;  
+}
+.right-menu :hover .box999{
+    display: block;
+}
+.right-menu:hover .icon1{
+    background-color: transparent;
+}
+
+.singa{
+
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.singa:hover{
+    font-weight: bolder;
+    font-size: larger;
+    color: #ffffff;
+   
+}
+
+
+
+.home111{
+ width: 100%;
+ height: 100vh;
+ background-image: url(images/4Kimagehome.jpg);
+ background-size:cover;
+ background-repeat: no-repeat   ;
+ display: flex;
+ flex-flow: wrap;
+ 
+}
+
+.home12{
+    width: 50%;
+    height:100vh;
+    color: #000000;
+    
+    
+    
+}
+.hometext{
+    
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left:20px;
+    padding: 30px;
+    text-align: center;
+    font: italic bold  Georgia, serif;
+    color: rgb(255, 255, 255);
+    /* background-color: rgba(58, 53, 53, 0.4); */
+    
+
+
+
+border-radius: 15px;
+
+backdrop-filter: blur (30px);
+
+border: 2px solid transparent;
+
+background-clip: padding-box;
+
+box-shadow: 10px 10px 10px rgba(45,55,68,0.0.);
+
+       
+    
+}
+
+.hometext:hover{
+    background: rgba(0, 0, 0, 0.1) ;
+}
+
+.mapd{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    position: relative;
+    top:18px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.home13{
+    width: 50%;
+    /* background-color: #32a250; */
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+/* 
+.images678{
+    display: flex;
+    width: 100%;
+}
+
+.images678 img{
+    
+    height: 400px;
+    
+    transition: all 0.15s ease;
+    justify-content: center;
+    
+}
+.images678 input{
+    display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+}
+.dots label{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border:solid rgb(255, 255, 255) 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #1aa7da;}
+
+#Singaporeroadways:checked ~ .i1{
+    margin-left:0;
+}
+#SingaporeWaterways:checked ~ .i2{
+    margin-left:-100%;
+}
+#SingaporeAirways:checked ~ .i3{
+    margin-left:-200%;
+}
+
+
+.i1{
+    width:500px;
+    padding-top:50px;
+    padding-right: 92px;
+    padding-left: 50px;
+    
+}
+.i2{
+    width:500px;
+    padding: 50px;
+    padding-right: 140px;
+}
+.i3{
+    width: 500px;
+    padding-top: 50px;
+    padding-right: 100px;
+    position: relative;
+} */
+
+
+
+
+
+
+/*  a{
+    width:50px;
+    height:50px;
+    background-color: white;
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    overflow:hidden;
+    transition: 0.3s all ease 0.1s;
+} 
+
+ a span
+{
+    width: 60%;
+    height:3px;
+    background-color: black;
+    border-radius: 8px;
+    transform-origin: left;
+    
+}
+a span:first-child{
+    transform: translate(0%, -250%);
+    transform: 0.3 all ease 0.3s ;
+}
+a span:nth-child(2){
+    transform: 0.3 all ease 0.3s ;
+}
+a span:last-child{
+    transform: translate(0%, -250%);
+    transform: 0.3 all ease 0.3s ;
+}
+a:hover span:first-child{
+    width:30%;
+    transform: translate(0%, -100%) rotate(-50deg);
+    transform: 0.3 all ease 0.3s ;
+}
+a span:nth-child(2){
+    transform:translateX(-300%) ;
+    transform: 0.3 all ease 0s ;
+}
+a:hover span:last-child{
+    width: 30%;
+    transform: translate(0%, -250%) rotate(50deg);
+    transform: 0.3 all ease 0.3s ;
+} */
