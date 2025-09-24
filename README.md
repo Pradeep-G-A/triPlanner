@@ -1,49 +1,63 @@
-triPlanner
-A modern web application to help you effortlessly plan your next adventure in Singapore! This app provides a seamless and personalized experience for exploring destinations, crafting itineraries, and discovering the best food and accommodation options the city has to offer.
+## triPlanner
 
-🌟 Key Features
-🗺️ Destination Explorer: Dive into a curated list of Singapore's top attractions, from the stunning Gardens by the Bay to the vibrant streets of Little India.
+A modern web application to help you effortlessly plan your next adventure in Singapore\! This app provides a seamless and personalized experience for exploring destinations, crafting itineraries, and discovering the best food and accommodation options the city has to offer.
 
-✍️ Personalized Itineraries: Easily add your favorite spots to a custom trip plan. Organize your day, your way!
+-----
 
-🍔 Filters & Categories: Find exactly what you're looking for with intuitive filters. Search by category (food, accommodation, sights) to tailor your trip.
+## 🌟 Key Features
 
-✨ Sleek & Responsive UI: Built with a clean, modern design that looks great and works perfectly on any device, from your desktop to your smartphone.
+  * **🗺️ Destination Explorer:** Dive into a curated list of Singapore's top attractions, from the stunning Gardens by the Bay to the vibrant streets of Little India.
+  * **✍️ Personalized Itineraries:** Easily add your favorite spots to a custom trip plan. Organize your day, your way\!
+  * **🍔 Filters & Categories:** Find exactly what you're looking for with intuitive filters. Search by category (food, accommodation, sights) to tailor your trip.
+  * **✨ Sleek & Responsive UI:** Built with a clean, modern design that looks great and works perfectly on any device, from your desktop to your smartphone.
 
-🛠️ Technologies & Skills
+-----
+
+## 🛠️ Technologies & Skills
+
 This project was crafted with the following tools:
 
-React <br/>  <br/> The core of our front-end, enabling a dynamic and component-based user interface.
+  * **React** \<br/\>
+    \<img src="[https://raw.githubusercontent.com/reactjs/reactjs.org/main/public/favicon.ico](https://www.google.com/search?q=https://raw.githubusercontent.com/reactjs/reactjs.org/main/public/favicon.ico)" alt="React Logo" width="30" height="30" /\> \<br/\>
+    The core of our front-end, enabling a dynamic and component-based user interface.
+  * **CSS** 🎨 \<br/\>
+    Used to bring the app to life with custom styling, ensuring a polished and user-friendly experience.
 
-CSS 🎨 <br/> Used to bring the app to life with custom styling, ensuring a polished and user-friendly experience.
+-----
 
-🚀 Getting Started
-Prerequisites
-You'll need Node.js and npm (or yarn) installed on your machine to run this project.
+## 🚀 Getting Started
 
-Installation
-Clone the repository to your local machine:
+### Prerequisites
 
-Bash
+You'll need **Node.js** and **npm** (or `yarn`) installed on your machine to run this project.
 
-git clone https://github.com/your-username/your-repository-name.git
-Navigate to the project directory:
+### Installation
 
-Bash
+1.  Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/your-username/your-repository-name.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd your-repository-name
+    ```
+3.  Install the necessary dependencies:
+    ```bash
+    npm install
+    ```
 
-cd your-repository-name
-Install the necessary dependencies:
+### Running the App
 
-Bash
+1.  Start the development server:
+    ```bash
+    npm start
+    ```
+2.  Open your web browser and visit `http://localhost:3000` to see the application in action.
 
-npm install
-Running the App
-Start the development server:
+-----
 
-Bash
+## 🔗 Live Demo
 
-npm start
-Open your web browser and visit http://localhost:3000 to see the application in action.
+Experience the app live: https://triplanners.netlify.app/
 
-🔗 Live Demo
-Experience the app live: [Link to your live demo, if available]
+-----
