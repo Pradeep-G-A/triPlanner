@@ -17,10 +17,9 @@ A modern web application to help you effortlessly plan your next adventure in Si
 
 This project was crafted with the following tools:
 
-  * **React** \<br/\>
-    \<img src="[https://raw.githubusercontent.com/reactjs/reactjs.org/main/public/favicon.ico](https://www.google.com/search?q=https://raw.githubusercontent.com/reactjs/reactjs.org/main/public/favicon.ico)" alt="React Logo" width="30" height="30" /\> \<br/\>
+  * **React**
     The core of our front-end, enabling a dynamic and component-based user interface.
-  * **CSS** 🎨 \<br/\>
+  * **CSS** 
     Used to bring the app to life with custom styling, ensuring a polished and user-friendly experience.
 
 -----
